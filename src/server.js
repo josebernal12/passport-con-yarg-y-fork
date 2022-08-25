@@ -5,7 +5,6 @@ const engine = require('ejs-mate');
 const session = require('express-session');
 const passport = require('passport');
 const controllersdb = require('./database/database')
-const port = process.env.PORT || 8080;
 const argv = require('./config/yargs')
 
 const app = express();
